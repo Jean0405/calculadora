@@ -16,10 +16,8 @@
     function dividir($n1, $n2){
         if ($n2 == 0) {
             $_SESSION['num1'] = "Error";
-        }elseif ($n1 == -1 and $n2 == -1 ) {
-            $_SESSION['num1'] = "Error";
         }else {            
-             $_SESSION['num1'] = ($n1 / $n2);
+            $_SESSION['num1'] = ($n1 / $n2);
         }
     }
 
